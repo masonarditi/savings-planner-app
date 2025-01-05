@@ -2,10 +2,9 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Plus, MoreVertical, Home, Linkedin, Github } from 'lucide-react'
+import { MoreVertical, Home, Linkedin, Github } from 'lucide-react'
 import { Bucket } from '@/components/Bucket'
 import { AddBucketDialog } from '@/components/add-bucket-dialog'
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
